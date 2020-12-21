@@ -1,2 +1,4 @@
 # MarkdownUrlGenerator
-URL converter to output as GitHub markdown.
+MarkdownUrlGeneratorは、WebサイトをGitHubマークダウンリンクとして出力するGoogleChrome用URLコンバータです。   
+
+# 導入方法
