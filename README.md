@@ -15,8 +15,10 @@ MarkdownUrlGeneratorは、WebサイトをGitHubマークダウンリンクとし
     
  3. 名前には "MarkDownUrlGen" などの**任意の名前を入力**します。
  4. URLには以下の文字列を入力してください。([compiled.js](./compiled.js))    
- 
- > javascript:(function(){title=document.title;href=document.location.href;var b="["+title+"]("+href+")",a=document.createElement("div"),c=document.createElement("pre");c.style.webkitUserSelect="auto";c.style.userSelect="auto";a.appendChild(c).textContent=b;b=a.style;b.position="fixed";b.right="200%";document.body.appendChild(a);document.getSelection().selectAllChildren(a);document.execCommand("copy");document.body.removeChild(a);alert("\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u306b\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f\u3002")})();
+   
+```
+ javascript:(function(){title=document.title;href=document.location.href;var b="["+title+"]("+href+")",a=document.createElement("div"),c=document.createElement("pre");c.style.webkitUserSelect="auto";c.style.userSelect="auto";a.appendChild(c).textContent=b;b=a.style;b.position="fixed";b.right="200%";document.body.appendChild(a);document.getSelection().selectAllChildren(a);document.execCommand("copy");document.body.removeChild(a);alert("\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u306b\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f\u3002")})();
+```
     
 ![image](https://user-images.githubusercontent.com/49768768/102812233-08a00a80-440a-11eb-9b63-13b8b18dd2bd.png)
 
